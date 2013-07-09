@@ -8,7 +8,7 @@ This class helps you to find how many times your links has been shared on curren
 ```php
 <?php
 require_once 'php-social-popularity/PHPSocialPopularity.php';
-$psp = new PHPSocialPopularity($domain->domain_name);
+$psp = new PHPSocialPopularity('http://www.google.com');
 $result = $psp->fetch();
 
 ```
